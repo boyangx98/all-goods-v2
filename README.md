@@ -22,3 +22,15 @@ This is a full-stack e-commerse platform which was designed for small businesses
 ![category page](screenshots/iter1.2.png)
 ![sign in/up page](screenshots/iter1.3.png)
 ![Firestore](screenshots/iter1.4.png)
+
+## Iteration 2
+
+- Added more features to the checkout page including modifying cart items
+- Added category highlight page
+- Added gcd deployment domain to auth whitelist
+- Removed access to the payment button due to stripe api key security concerns
+- Tagged as `v2.0.1`
+
+![highlight page](screenshots/iter2.1.png)
+![checkout page](screenshots/iter2.2.png)
+![domain whitelist](screenshots/iter2.3.png)
