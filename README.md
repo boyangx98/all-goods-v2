@@ -34,3 +34,14 @@ This is a full-stack e-commerse platform which was designed for small businesses
 ![highlight page](screenshots/iter2.1.png)
 ![checkout page](screenshots/iter2.2.png)
 ![domain whitelist](screenshots/iter2.3.png)
+
+## Iteration 3
+
+- Added test cases for redux actions, reducers, and firebase utils
+- Performed functional testings of all paths in the web app
+- Tagged as `v2.0.2`
+
+### Clarifications
+
+- create-payment-intent is not a firebase function, it is a cloud function that is deployed to netlify to handle stripe payment API requests
+- Backend database is firebase firestore
